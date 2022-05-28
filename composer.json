@@ -1,0 +1,22 @@
+{
+    "name": "magmamc/core",
+    "description": "Magma Core",
+    "type": "project",
+    "require": {
+        "php": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oskar Nizioł",
+            "email": "oskarniziol@gmail.com"
+        }
+    ]
+}
